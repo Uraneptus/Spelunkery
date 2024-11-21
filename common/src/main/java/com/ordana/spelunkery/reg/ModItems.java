@@ -136,12 +136,14 @@ public class ModItems {
     public static final Supplier<Item> STONE_SLUICE = regItem("stone_sluice", () ->
             new ChannelSluiceItem(ModBlocks.STONE_SLUICE.get(), new Item.Properties()));
 
-
     public static final Supplier<Item> NEPHRITE_CHARM = regItem("nephrite_charm", () ->
             new NephriteCharmItem(new Item.Properties().stacksTo(1)));
 
+
     public static final Supplier<Item> MINEOMITE = regItem("mineomite", () ->
             new MineomiteItem(ModBlocks.MINEOMITE.get(), new Item.Properties()));
+    public static final Supplier<Item> PICK_ON_A_STICK = regItem("iron_pick_on_a_stick", () ->
+            new PickOnAStickItem(new Item.Properties().stacksTo(1).durability(1200)));
     public static final Supplier<Item> COMPRESSION_BLAST_MINER = regItem("compression_blast_miner", () ->
             new CompressionBlastMinerItem(ModBlocks.COMPRESSION_BLAST_MINER.get(), new Item.Properties()));
 
@@ -160,6 +162,8 @@ public class ModItems {
             new DustBunItem(new Item.Properties().stacksTo(16)));
     public static final Supplier<Item> BUNNY_EARS = regItem("bunny_ears", () ->
             new BunnyEarsItem(new Item.Properties().stacksTo(1)));
+    public static final Supplier<Item> TRUE_CROWN = regItem("true_crown", () ->
+            new TrueCrownItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
 
     //mining gear
     public static final Supplier<Item> ROPE_LADDER = regItem("rope_ladder", () ->

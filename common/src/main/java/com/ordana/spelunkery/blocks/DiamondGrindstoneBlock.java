@@ -96,6 +96,14 @@ public class DiamondGrindstoneBlock extends GrindstoneBlock {
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL).setValue(ModBlockProperties.DEPLETION, 0));
     }
 
+    public boolean hasAnalogOutputSignal(BlockState state) {
+        return true;
+    }
+
+    public int getAnalogOutputSignal(BlockState state, Level level, BlockPos pos) {
+        return state.getValue(ModBlockProperties.DEPLETION);
+    }
+
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
     }

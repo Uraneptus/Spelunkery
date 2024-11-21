@@ -23,6 +23,8 @@ public class ModSoundEvents {
     public static RegSupplier<SoundEvent> KNOB = registerSoundEvent("knob");
     public static RegSupplier<SoundEvent> SPRING_WATER_AMBIENT = registerSoundEvent("spring_water_ambient");
     public static RegSupplier<SoundEvent> SPRING_WATER_POP = registerSoundEvent("spring_water_pop");
+    public static RegSupplier<SoundEvent> JANGLE = registerSoundEvent("jangle");
+
 
     @NotNull
     private static RegSupplier<SoundEvent> registerSoundEvent(@NotNull String name) {

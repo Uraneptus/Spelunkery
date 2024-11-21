@@ -15,6 +15,9 @@ public class ModDispenserBehaviors {
         event.register(new CBMBehavior());
         event.register(new EggplantBehavior());
         event.register(new MineOMiteBehavior());
+        BuiltInRegistries.ITEM.getTagOrEmpty(ModTags.GRINDSTONE_REPAIR_ITEM).iterator().forEachRemaining(h ->
+                event.register(new GrindstoneRepairBehavior(h.value()))
+        );
         BuiltInRegistries.ITEM.getTagOrEmpty(ModTags.DIAMOND_GRINDABLE).iterator().forEachRemaining(h ->
                 event.register(new GrindstoneBehavior(h.value()))
         );

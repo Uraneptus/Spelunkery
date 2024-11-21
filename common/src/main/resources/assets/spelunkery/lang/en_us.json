@@ -69,6 +69,7 @@
   "tooltip.spelunkery.sculk": "Mine with Shears to obtain Sculk Veins",
   "tooltip.spelunkery.sculk_veins": "Mine Sculk with Shears to obtain",
   "tooltip.spelunkery.dust_bun_1": "Interact to break open",
+  "tooltip.spelunkery.crown_1": "Bound",
   "tooltip.spelunkery.salt_1": "Impassable to the undead",
   "tooltip.spelunkery.grindstone_1": "  Interact while holding rough gems to polish them",
   "tooltip.spelunkery.grindstone_2": "  The diamond coating wears off with time, restore using rough diamond shard",
@@ -204,6 +205,7 @@
   "subtitles.item.pebble.knob": "skonb elbbeP",
   "subtitles.block.spring_water.ambient": "Spring Water Roils",
   "subtitles.block.spring_water.pop": "Spring Water bubbles",
+  "subtitles.entity.jangle": "Fool jingles",
 
   "block.spelunkery.rock_salt": "Rock Salt",
   "block.spelunkery.salt_lamp": "Salt Lamp",
@@ -414,6 +416,7 @@
   "item.spelunkery.dust_bunny_spawn_egg": "Dust Bunny Spawn Egg",
   "block.spelunkery.dust_block": "Block of Dust",
   "block.spelunkery.dust": "Dust",
+  "block.spelunkery.true_crown": "Crown of Fools",
 
   "block.spelunkery.sulfur": "Sulfur",
   "block.spelunkery.saltpeter": "Saltpeter",
@@ -449,6 +452,9 @@
   "item.spelunkery.diamond_grindstone.worn": "Worn Diamond Grindstone",
   "item.spelunkery.diamond_grindstone.dull": "Dull Diamond Grindstone",
 
+  "item.spelunkery.iron_pick_on_a_stick": "Iron Pick on a Stick",
+  "item.spelunkery.diamond_pick_on_a_stick": "Diamond Pick on a Stick",
+  "item.spelunkery.netherite_pick_on_a_stick": "Netherite Pick on a Stick",
   "block.spelunkery.mineomite": "Mine-o-mite",
   "block.spelunkery.compression_blast_miner": "Compression Blast Miner",
 

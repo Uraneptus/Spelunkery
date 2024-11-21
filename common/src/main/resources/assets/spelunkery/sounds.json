@@ -80,5 +80,16 @@
     "sounds": [
       "spelunkery:block/spring_water/bubble1"
     ]
+  },
+  "jangle": {
+    "subtitle": "subtitles.entity.jangle",
+    "sounds": [
+      "spelunkery:entity/jangle0",
+      "spelunkery:entity/jangle1",
+      "spelunkery:entity/jangle2",
+      "spelunkery:entity/jangle3",
+      "spelunkery:entity/jangle4",
+      "spelunkery:entity/jangle5"
+    ]
   }
 }

@@ -48,7 +48,7 @@ public class Spelunkery {
 
         PlatHelper.addCommonSetup(Spelunkery::setup);
 
-        if(PlatHelper.getPhysicalSide().isClient()){
+        if(PlatHelper.getPhysicalSide().isClient()) {
             ClientConfigs.init();
 
             ClientHelper.registerOptionalTexturePack(Spelunkery.res("better_vanilla_gems"), Component.literal("Better Vanilla Gems"), false);

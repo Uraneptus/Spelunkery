@@ -22,7 +22,8 @@ public abstract class ModelBakeryMixin {
     protected abstract void loadTopLevel(ModelResourceLocation modelId);
 
     @Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/resources/model/ModelBakery;loadTopLevel(Lnet/minecraft/client/resources/model/ModelResourceLocation;)V", ordinal = 3, shift = At.Shift.AFTER))
-    public void addBunnyEars(BlockColors blockColors, ProfilerFiller profiler, Map<ResourceLocation, BlockModel> jsonUnbakedModels, Map<ResourceLocation, List<ModelBakery.LoadedJson>> blockStates, CallbackInfo ci) {
+    public void addModels(BlockColors blockColors, ProfilerFiller profiler, Map<ResourceLocation, BlockModel> jsonUnbakedModels, Map<ResourceLocation, List<ModelBakery.LoadedJson>> blockStates, CallbackInfo ci) {
         this.loadTopLevel(new ModelResourceLocation(Spelunkery.MOD_ID, "bunny_ears_3d", "inventory"));
+        this.loadTopLevel(new ModelResourceLocation(Spelunkery.MOD_ID, "true_crown_3d", "inventory"));
     }
 }

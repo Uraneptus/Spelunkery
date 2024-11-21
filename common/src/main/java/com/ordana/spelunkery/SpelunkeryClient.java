@@ -135,9 +135,10 @@ public class SpelunkeryClient {
     private static void registerEntityRenderers(ClientHelper.EntityRendererEvent event) {
         event.register(ModEntities.FALLING_LAYER.get(), FallingBlockRendererGeneric::new);
         event.register(ModEntities.DUST_BUNNY.get(), DustBunnyRenderer::new);
-        event.register(ModEntities.GLOWSTICK.get(), context -> new ThrownItemRenderer<>(context, 1, false));
+        event.register(ModEntities.GLOWSTICK.get(), context -> new ThrownItemRenderer<>(context, 1, true));
         event.register(ModEntities.MINEOMITE.get(), context -> new ThrownItemRenderer<>(context, 1, false));
         event.register(ModEntities.PEBBLE.get(), context -> new ThrownItemRenderer<>(context, 1, false));
+        event.register(ModEntities.PICK.get(), context -> new ThrownItemRenderer<>(context, 1, false));
         event.register(ModEntities.EGGPLANT.get(), context -> new ThrownItemRenderer<>(context, 1, false));
     }
 

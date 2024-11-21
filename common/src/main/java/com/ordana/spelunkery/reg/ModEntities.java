@@ -56,6 +56,9 @@ public class ModEntities {
     public static Supplier<EntityType<ThrownPebbleEntity>> PEBBLE = RegHelper.registerEntityType(
             Spelunkery.res("pebble"),
             ThrownPebbleEntity::new, MobCategory.MISC, 0.7F, 0.7F, 10, 20);
+    public static Supplier<EntityType<PickOnAStickEntity>> PICK = RegHelper.registerEntityType(
+            Spelunkery.res("pick"),
+            PickOnAStickEntity::new, MobCategory.MISC, 0.6F, 0.6F, 10, 20);
     public static Supplier<EntityType<ThrownEggplantEntity>> EGGPLANT = RegHelper.registerEntityType(
             Spelunkery.res("eggplant"),
             ThrownEggplantEntity::new, MobCategory.MISC, 0.7F, 0.7F, 10, 20);
